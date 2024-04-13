@@ -7,6 +7,8 @@ lsp_zero.on_attach(function(client, bufnr)
   -- to learn the available actions
   lsp_zero.default_keymaps({buffer = bufnr})
   vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, {buffer = bufnr})
+  vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, {})
+  vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action)
 
 end)
 
