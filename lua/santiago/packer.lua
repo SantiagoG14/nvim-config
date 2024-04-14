@@ -40,6 +40,7 @@ return require("packer").startup(function(use)
 	})
 
 	use("windwp/nvim-ts-autotag")
+    use("andymass/vim-matchup")
 
 	use("nvimtools/none-ls.nvim")
 	-- use 'foo1/bar1.nvim'

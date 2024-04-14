@@ -153,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/santiago/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-matchup"] = {
+    loaded = true,
+    path = "/home/santiago/.local/share/nvim/site/pack/packer/start/vim-matchup",
+    url = "https://github.com/andymass/vim-matchup"
   }
 }
 
